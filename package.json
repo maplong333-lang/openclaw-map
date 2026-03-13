@@ -1,0 +1,36 @@
+{
+  "name": "openclaw-map",
+  "version": "1.0.0",
+  "description": "OpenClaw多Agent协作项目管理插件 - 项目管理、任务分配、Agent记忆系统",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "multi-agent",
+    "project-management",
+    "collaboration"
+  ],
+  "author": "xiaobai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoshe/openclaw-map.git"
+  },
+  "dependencies": {},
+  "openclaw": {
+    "name": "Map",
+    "description": "多Agent协作项目管理插件",
+    "commands": [
+      "/agent status",
+      "/project new",
+      "/project list",
+      "/project add",
+      "/project remove",
+      "/task add",
+      "/task list",
+      "/task done"
+    ]
+  }
+}
